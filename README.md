@@ -1,2 +1,2 @@
 # 2022-HtH-Program Assignments
- program assignments
+print (17 % 6)
