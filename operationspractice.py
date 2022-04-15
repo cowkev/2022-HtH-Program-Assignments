@@ -9,14 +9,18 @@ var1 = 25 - 10
 var2 = 50 -27
 var3 = 61 - 38
 
-
+print (var1, var2, var3)
 '''
 Below are three set's of numbers. Calculate the result of when the first number entered is raised to the power of the second number entered.
 '''
 set4, set5, set6, = [2, 3], [10, 7], [5, 4]
-print (2**3) 
-print (10**7)
-print (5**4)
+
+var4 = 2**3
+var5 = 10**7
+var6 = 5**4
+
+print (var4, var5, var6)
+
 '''
 Below are three set's of numbers. Calculate how many times the second number can be divided into the first number. For example if the first number entered was 23 and the second number entered was 4 the program should report 5 times
 '''
@@ -24,13 +28,13 @@ set7, set8, set9, = [23, 4], [19, 3], [81, 13]
 floor1 = 23 // 4 # 4 goes into 23 5 times therfore outputting 5 in command
 floor2 = 19 // 3
 floor3= 81 // 13
-print (floor1)
+print (floor1, floor2, floor3)
 '''
 Below is an empty variable called my_name. Assign your name to the variable and then add the string "hello " to the
 front of it. Assign the result to the variable greeting 
 '''
 my_name="Kevin"
-greeting="Hello"+ my_name
+greeting="Hello "+ my_name
 print (greeting)
 '''
 Below is a list of even and odd numbers. Can you write a block of code that loops through the list and tells you whether the number is even of odd?
