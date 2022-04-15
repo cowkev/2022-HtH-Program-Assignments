@@ -36,9 +36,10 @@ print (greeting)
 Below is a list of even and odd numbers. Can you write a block of code that loops through the list and tells you whether the number is even of odd?
 '''
 list = [0,1, 2, 3, 4, 5, 6, 7, 8, 9]
-if list % 2 == 0:
-    print ("even")
-else:
-    print ("odd")
+for num in range (1,10):
+    if num % 2 == 0:
+        print ("even")
+    else:
+        print ("odd")
 
 
