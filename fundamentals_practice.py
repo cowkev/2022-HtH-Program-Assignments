@@ -1,7 +1,7 @@
 print ("Hello World") #"Hello World"
-name = "Kevin"
-age = 18
-years_at_hth = .5
+name = "Kevin" #string
+age = 18 #int
+years_at_hth = .5 #float
 plays_basketball = False
 jersey_number = "09"
 car_name = "Toyota", "Acura", "Ford", "Tesla"
