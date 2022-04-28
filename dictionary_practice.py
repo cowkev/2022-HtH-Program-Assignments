@@ -12,11 +12,11 @@ Jordan_Stock = Sneakers["Jordan 13"]
 print(Jordan_Stock)
 
 Sneakers["SB Dunk"] -= 2
-print("\nCustomer came to purchase 2 pairs of SB Dunks")
+print("Customer came to purchase 2 pairs of SB Dunks")
 print(Sneakers["SB Dunk"])
 
 Sneakers["Yeezy"] -=1
-print("\nCustomer returned a pair of Yeezys")
+print("Customer returned a pair of Yeezys")
 print(Sneakers["Yeezy"])
 
 Sneakers["Air Max"] +=7
@@ -24,7 +24,7 @@ Sneakers["Foamposite"] +=7
 Sneakers["Jordan 13"] +=7
 Sneakers["SB Dunk"] +=7
 Sneakers["Yeezy"] +=7
-print("\nNew shipment. All stock increased by 7")
+print("New shipment. All stock increased by 7")
 print(Sneakers)
 
 Sneakers["Air Max"] -=3
@@ -32,16 +32,16 @@ Sneakers["Foamposite"] -=3
 Sneakers["Jordan 13"] -=3
 Sneakers["SB Dunk"] -=3
 Sneakers["Yeezy"] -=3
-print("\nStore Sale, all stock decreased by 3")
+print("Store Sale, all stock decreased by 3")
 print(Sneakers)
 
 Sneakers.update({"NMD": 6})
 Sneakers.update({"Vans": 12})
 Sneakers.update({"Uggs": 4})
-print("\nAdding shoes with update( ) method")
+print("Adding shoes with update( ) method")
 print(Sneakers)
 
 del Sneakers["Uggs"]
 del Sneakers["NMD"]
-print("\nDeleted NMD and Uggs")
+print("Deleted NMD and Uggs")
 print(Sneakers)
